@@ -21,6 +21,8 @@ public class Transaction {
 	@SequenceGenerator(name = "txnid", sequenceName = "txnid_seq", allocationSize = 20)
 	@Column(length = 20)
 	private int txnId;
+	private int txnId;
+	private int txnId;
 	@Column
 	private Date txndate;
 	@Column(length = 20)
