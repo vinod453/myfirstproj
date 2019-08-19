@@ -135,6 +135,7 @@ public class LoginController {
 	public String printTransactions(Model model) {
 		List<Transaction> transactions = service.printTransactions(customer.getAccno());
 		model.addAttribute("transactions", transactions);
+		model.addAttribute("transactions", transactions);
 		return "printtransactions";
 	}
 
